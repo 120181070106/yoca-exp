@@ -18,7 +18,7 @@ class YOLO(object):
         "model_path"        : 'logs/l.pth',   ########################
         "classes_path"      : 'model_data/voc_classes.txt',
         "input_shape"       : [640, 640],
-        "phi"               : 'm', ########################
+        "phi"               : 'n', ########################
         "confidence"        : 0.5,
         "nms_iou"           : 0.3,
         "letterbox_image"   : True,
